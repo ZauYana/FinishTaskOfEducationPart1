@@ -5,7 +5,6 @@ string[] CreateMassivOfStrings(string[] massivOfFirstText)
 {
 
     string[] massivOfThreeOrLessLetters = new string[] { };
-    int j = 0;
     for (int i = 0; i < massivOfFirstText.Length; i++)
     {
         if (massivOfFirstText[i].Length <= 3)
